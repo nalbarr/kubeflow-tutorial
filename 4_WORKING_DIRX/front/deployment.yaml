@@ -1,0 +1,20 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: web-ui
+  namespace: kubeflow
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-ui
+  template:
+    metadata:
+      labels:
+        app: web-ui
+    spec:
+      containers:
+      - image: gcr.io/mnist-kubeflow-254921/kubeflow-web-ui:latest
+        name: web-ui
+        ports:
+        - containerPort: 5000

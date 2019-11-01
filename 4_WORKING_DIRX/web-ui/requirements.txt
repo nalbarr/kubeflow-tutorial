@@ -1,0 +1,7 @@
+Pillow
+h5py
+ipykernel
+numpy
+tensorflow==1.14.0
+tensorflow-serving-api==1.14.0
+flask
