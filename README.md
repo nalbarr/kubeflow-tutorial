@@ -1,7 +1,5 @@
 # Set up
 
-### Dependencies
-
 ### Configure Cloud Shell
 - virtualenv venv
 - source venv/bin/activate
@@ -53,6 +51,10 @@
 
 ## If need clean up
 - remove 1_create_cluster/$KFAPP dir which are generated configuration files
+
+## Pre-requisites
+- cd 0_prereqs
+  - 1_get_kustomize_2.0.3.sh
 
 ## Set-up cluster
 NOTE: all script execution assumes source <script> to gain access to ENV variables
