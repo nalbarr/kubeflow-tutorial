@@ -2,6 +2,6 @@ Pillow
 h5py
 ipykernel
 numpy
-tensorflow==1.14.0
+tensorflow==1.15.2
 tensorflow-serving-api==1.14.0
 flask
